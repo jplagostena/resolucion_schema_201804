@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  
+  
+<xs:simpleType name="clienteType">
+    <xs:restriction base="xs:string">
+        <xs:pattern value="[a-zA-Z]" />
+    </xs:restriction>
+</xs:simpleType>
+
+<xs:element name="clientes">
+    <xs:complexType>
+        <xs:sequence>
+            <xs:element type="clienteType" name="cliente" maxOccurs="unbounded" minOccurs="1"/>
+        </xs:sequence>
+    </xs:complexType>
+</xs:element>
+
+</xs:schema>
+
+
+
+
+
+

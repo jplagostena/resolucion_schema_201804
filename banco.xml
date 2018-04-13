@@ -1,0 +1,7 @@
+<clientes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="schema_banco.xsd">
+    <cliente>H</cliente>
+    <cliente>o</cliente>
+    <cliente>l</cliente>
+    <cliente>a</cliente>        
+</clientes>
